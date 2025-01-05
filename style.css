@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.left-container{
+    position: fixed;
+    width: 400px;
+    height: 1000px;
+    background-color: #3E5879;
+}
+.photo-contact{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+.photo{
+    width: 200px;
+    border-radius: 50%;
+}
+.contact-btn{
+    width: 200px;
+    font-size: 15px;
+    background-color: #D8C4B6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+.contact-btn:hover{
+    background-color: #F5EFE7;
+    transition: 0.7s;
+}
+.right-container{
+    position: absolute;
+    left: 400px;
+    padding: 20px 100px;
+}
+.list-menu{
+    float: right;
+}
+.menu{
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#about{
+    padding-top: 80px;
+}
+#education{
+    padding-top: 80px;
+}
+.container-edu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-edu{
+    width: 400px;
+    height: 180px;
+    background-color: #D8C4B6;
+    padding: 20px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.list-edu p{
+    font-size: 1.2rem;
+}
+#project{
+    padding-top: 80px;
+}
+#project ul li {
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+#experience {
+    padding-top: 80px;
+}
+#contact {
+    padding-top: 80px;
+}
+#footer {
+    padding-top: 250px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 0px;
+}
